@@ -47,7 +47,6 @@ class LogicDataSpider(scrapy.Spider):
     'Accept-Language': 'en-US,en;q=0.9',
     'Connection': 'keep-alive',
     'Content-Type': 'application/json',
-    # 'Cookie': 'visid_incap_2613123=TE/hxFgESzWc3Pn0OBjGJghq9GYAAAAAQUIPAAAAAACe/ZupH1LAGBtGLO3eiN3L; ajs_user_id=gebethner; ajs_anonymous_id=f9df1443-88af-42e6-8343-f19549261025; visid_incap_2595776=8XoaLyUkSF2Rt0iwTOM3miNt9GYAAAAAQUIPAAAAAABjMFh8ww3R1j3BMVxJwHdm; _fbp=fb.2.1727294758818.811572330933344473; __zlcmid=1Nvn2zxJAL2RtAp; _conv_r=s%3Awww.google.com*m%3Aorganic*t%3A*c%3A; _gcl_au=1.1.1738887025.1727553555; __utmzz=utmcsr=google|utmcmd=organic|utmccn=(not set)|sfID=7018w0000009UnCAAU|crmID=|utmctr=(not provided); _hjSessionUser_2879853=eyJpZCI6IjlhN2MxZThlLTUwYzktNWY0OC1iOTNkLWNiZjU2YzcxZGJmNyIsImNyZWF0ZWQiOjE3Mjc1NTM1NjM3NjQsImV4aXN0aW5nIjp0cnVlfQ==; _conv_v=vi%3A1*sc%3A2*cs%3A1727598886*fs%3A1727553551*pv%3A3*exp%3A%7B100455401.%7Bv.1004138237-g.%7B100417280.1-100417281.1-100439803.1-100444439.1%7D%7D-100456010.%7Bv.1004139642-g.%7B100417280.1-100417281.1-100439803.1-100444439.1%7D%7D-100462971.%7Bv.1004154977-g.%7B100417280.1-100417281.1-100439803.1-100444439.1%7D%7D%7D*ps%3A1727553551; _ga_610QKV2T7G=GS1.3.1727598906.2.1.1727599070.60.0.0; _ga=GA1.1.2005574307.1727553556; _ga_9Y2TJ80HY8=GS1.1.1727598898.2.1.1727599124.60.0.0; _ga_EDZWFYVBP8=GS1.1.1727598899.2.1.1727599124.60.0.0; _ga_SDRJGMEL01=GS1.1.1727598900.2.1.1727599124.60.0.0; _ga_W3HVTE2YXF=GS1.1.1727598910.2.1.1727599124.0.0.0; nlbi_2613123=/CC/ft36wSv4H6p5X7nQvQAAAAB99wdTLm1oiy+STB1ftEtQ; incap_ses_974_2613123=v1LWRYwXll6PFIXUB1iEDTbm/GYAAAAADPEtnKOMlEYq30NSJzXABA==; APP2SESSION-XSRF=b64fbe64-5671-4bfc-aa81-42b238d7dae9; APP2SESSION=ZGM0ZWIxMzctNTYwZS00ZDg2LWFhZjAtODdjY2RlNTY3NmEy; _clck=1ycynb5%7C2%7Cfpo%7C0%7C1729; _clsk=efowmq%7C1727850060984%7C1%7C1%7Cu.clarity.ms%2Fcollect',
     'Origin': 'https://rpp.corelogic.com.au',
     'Referer': 'https://rpp.corelogic.com.au/search/multi',
     'Sec-Fetch-Dest': 'empty',
@@ -58,10 +57,6 @@ class LogicDataSpider(scrapy.Spider):
     'sec-ch-ua': '"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
-}
-
-params = {
-    'clAppAccountUserGuid': 'f606eaec-bb49-43e7-83de-61c23c7e8642',
 }
     #
 
