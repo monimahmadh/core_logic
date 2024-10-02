@@ -1,0 +1,13 @@
+setup.py
+core_logic/__init__.py
+core_logic/items.py
+core_logic/middlewares.py
+core_logic/pipelines.py
+core_logic/settings.py
+core_logic/spiders/__init__.py
+core_logic/spiders/logic_data.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
